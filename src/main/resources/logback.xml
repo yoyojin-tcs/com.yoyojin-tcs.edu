@@ -8,7 +8,7 @@
             </Pattern>
         </layout>
     </appender>
-    <logger name="ru.tinkoff.edu" level="trace">
+    <logger name="com.yoyojintcs.edu" level="trace">
         <appender-ref ref="CONSOLE"/>
     </logger>
 

@@ -1,9 +1,9 @@
-package ru.tinkoff.edu.reflection.di;
+package com.yoyojintcs.edu.reflection.di;
 
+import com.yoyojintcs.edu.reflection.di.annotations.Autowired;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.tinkoff.edu.reflection.di.annotations.Autowired;
-import ru.tinkoff.edu.reflection.di.annotations.Component;
+import com.yoyojintcs.edu.reflection.di.annotations.Component;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,6 +1,6 @@
-package ru.tinkoff.edu.reflection.services;
+package com.yoyojintcs.edu.reflection.services;
 
-import ru.tinkoff.edu.reflection.model.Person;
+import com.yoyojintcs.edu.reflection.model.Person;
 
 import java.util.Optional;
 

@@ -1,11 +1,11 @@
-package ru.tinkoff.edu.reflection;
+package com.yoyojintcs.edu.reflection;
 
 import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
-import ru.tinkoff.edu.reflection.di.DiRunner;
-import ru.tinkoff.edu.reflection.model.Person;
-import ru.tinkoff.edu.reflection.services.EmailService;
-import ru.tinkoff.edu.reflection.services.PersonService;
+import com.yoyojintcs.edu.reflection.di.DiRunner;
+import com.yoyojintcs.edu.reflection.model.Person;
+import com.yoyojintcs.edu.reflection.services.EmailService;
+import com.yoyojintcs.edu.reflection.services.PersonService;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;

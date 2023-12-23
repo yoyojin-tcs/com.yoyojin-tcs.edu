@@ -1,10 +1,10 @@
-package ru.tinkoff.edu.reflection.services;
+package com.yoyojintcs.edu.reflection.services;
 
+import com.yoyojintcs.edu.reflection.di.annotations.Autowired;
+import com.yoyojintcs.edu.reflection.di.annotations.Component;
+import com.yoyojintcs.edu.reflection.model.Person;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.tinkoff.edu.reflection.di.annotations.Autowired;
-import ru.tinkoff.edu.reflection.di.annotations.Component;
-import ru.tinkoff.edu.reflection.model.Person;
 
 import static java.lang.String.format;
 
