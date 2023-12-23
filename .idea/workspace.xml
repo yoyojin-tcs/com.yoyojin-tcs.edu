@@ -4,26 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2b9f211-8b35-4275-9faa-7f28140bfe0c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tinkoff/edu/java/reflection/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tinkoff/edu/java/reflection/di/BeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tinkoff/edu/java/reflection/di/DiRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tinkoff/edu/java/reflection/di/annotations/Autowired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tinkoff/edu/java/reflection/di/annotations/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tinkoff/edu/java/reflection/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tinkoff/edu/java/reflection/services/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tinkoff/edu/java/reflection/services/EmailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tinkoff/edu/java/reflection/services/InMemoryPersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tinkoff/edu/java/reflection/services/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/tinkoff/edu/java/reflection/PersonTest.java" afterDir="false" />
+    <list default="true" id="b2b9f211-8b35-4275-9faa-7f28140bfe0c" name="Changes" comment="Java IoC Container basic example">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tinkoff/edu/java/reflection/di/DiRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tinkoff/edu/java/reflection/di/DiRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tinkoff/edu/java/reflection/services/InMemoryPersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tinkoff/edu/java/reflection/services/InMemoryPersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/tinkoff/edu/java/reflection/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/tinkoff/edu/java/reflection/PersonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +39,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Application.executor": "Run",
+    "JUnit.PersonTest.reflectionTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -74,7 +60,7 @@
       <recent name="ru.tinkoff.edu.java.reflection.annotations" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="JUnit.PersonTest.reflectionTest">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.tinkoff.edu.java.reflection.Application" />
       <module name="ru.tinkoff.edu.reflection" />
@@ -119,9 +105,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonTest.reflectionTest" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.DiRunner" />
-        <item itemvalue="JUnit.PersonTest.reflectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -141,19 +127,27 @@
       <option name="presentableId" value="Default" />
       <updated>1703013007396</updated>
     </task>
+    <task id="LOCAL-00001" summary="Java IoC Container basic example">
+      <option name="closed" value="true" />
+      <created>1703335776193</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703335776193</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Java IoC Container basic example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java IoC Container basic example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/tinkoff/edu/java/reflection/di/BeanFactory.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/tinkoff/edu/java/reflection/di/BeanFactory.java</url>
-          <line>97</line>
+          <line>100</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>

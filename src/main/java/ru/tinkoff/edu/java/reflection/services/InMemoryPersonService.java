@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @Component
 public class InMemoryPersonService implements PersonService {
-    private Logger logger = LoggerFactory.getLogger(InMemoryPersonService.class);
+    private final Logger logger = LoggerFactory.getLogger(InMemoryPersonService.class);
 
     private final Map<String, Person> store = new HashMap<>();
 

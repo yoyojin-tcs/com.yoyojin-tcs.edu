@@ -13,7 +13,7 @@ public class DiRunner {
     }
 
     public <T> T getBean(Class<T> clazz) {
-        return (T) beanFactory.getBean(clazz);
+        return beanFactory.getBean(clazz);
     }
 
 }
