@@ -1,4 +1,4 @@
-package ru.tinkoff.edu.java.reflection.services;
+package ru.tinkoff.edu.reflection.services;
 
 public interface EmailService {
 

@@ -1,9 +1,9 @@
-package ru.tinkoff.edu.java.reflection;
+package ru.tinkoff.edu.reflection;
 
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.tinkoff.edu.java.reflection.model.Person;
+import ru.tinkoff.edu.reflection.model.Person;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -17,7 +17,7 @@ class PersonTest {
     @Test
     void reflectionTest(){
         try {
-            Class<?> clazz = Class.forName("ru.tinkoff.edu.java.reflection.model.Person");
+            Class<?> clazz = Class.forName("ru.tinkoff.edu.reflection.model.Person");
             Person p = new Person("Alex", "ru.tinkoff.edu.java.reflection.Alex@tinkoff.ru");
             Constructor<?> constructor = p.getClass().getConstructor(String.class, String.class);
             var person = constructor.newInstance("Alex", "alex.example@tinkoff.ru");

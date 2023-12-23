@@ -1,4 +1,4 @@
-package ru.tinkoff.edu.java.reflection.model;
+package ru.tinkoff.edu.reflection.model;
 
 public class Person {
 

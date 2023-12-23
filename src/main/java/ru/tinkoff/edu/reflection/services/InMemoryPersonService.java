@@ -1,9 +1,9 @@
-package ru.tinkoff.edu.java.reflection.services;
+package ru.tinkoff.edu.reflection.services;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.tinkoff.edu.java.reflection.di.annotations.Component;
-import ru.tinkoff.edu.java.reflection.model.Person;
+import ru.tinkoff.edu.reflection.di.annotations.Component;
+import ru.tinkoff.edu.reflection.model.Person;
 
 import java.util.HashMap;
 import java.util.Map;

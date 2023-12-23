@@ -1,4 +1,4 @@
-package ru.tinkoff.edu.java.reflection.di;
+package ru.tinkoff.edu.reflection.di;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
